@@ -1,0 +1,118 @@
+#box {
+  height: 300px;
+  width: 300px;
+  background: teal;
+}
+
+button {
+  margin-top: 30px;
+}
+
+.ball-roll {
+  animation: roll-animation 3s;
+}
+
+@keyframes roll-animation {
+  25% {
+    border-radius: 50%;
+    transform: translateX(0px);
+  }
+
+  75% {
+    border-radius: 50%;
+    transform: translateX(400px);
+  }
+}
+
+h1 {
+  margin-top: -35px;
+}
+
+.shrink {
+  animation: shrink 5s;
+}
+
+@keyframes shrink {
+  25% { 
+    border-radius: 50%;
+    transform: scale(1);
+  }
+
+  50% { 
+    border-radius: 50%;
+    transform: scale(0);
+  }
+
+  75% { 
+    border-radius: 50%;
+    transform: scale(1);
+  }
+
+  100% { 
+    border-radius: 0%;
+    transform: scale(1);
+  }
+}
+
+
+
+.adam {
+  animation: adam 5s;
+}
+
+@keyframes adam {
+  25% { 
+    border-radius: 50%;
+    transform: scale(1);
+  }
+
+  50% { 
+    border-radius: 50%;
+    transform: scale(1) translateX(500px);
+  }
+
+  61% { 
+    border-radius: 50%;
+    transform: scale(1) translateX(500px);
+  }
+
+  63% { 
+    border-radius: 50%;
+    transform: scale(1) translateX(495px);
+  }
+
+  65% { 
+    border-radius: 50%;
+    transform: scale(1) translateX(505px);
+  }
+
+  67% { 
+    border-radius: 50%;
+    transform: scale(1) translateX(495px);
+  }
+
+  69% { 
+    border-radius: 50%;
+    transform: scale(1) translateX(505px);
+  }
+
+  71% { 
+    border-radius: 50%;
+    transform: scale(1) translateX(495px);
+  }
+
+  73% { 
+    border-radius: 50%;
+    transform: scale(1) translateX(500px);
+  }
+
+  90% { 
+    border-radius: 50%;
+    transform: scale(1) translateX(500px);
+  }
+
+  100% { 
+    border-radius: 50%;
+    transform: scale(1) translateX(500px) translateY(3000px);
+  }
+}
